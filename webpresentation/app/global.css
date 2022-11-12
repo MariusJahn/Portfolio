@@ -1,34 +1,51 @@
+main {
+    display: flex;
+    justify-content: center;
+}
+
+.navbutton{
+    text-decoration: none;
+    width: 6rem;
+    text-align: center;
+    padding: 2rem;
+    margin-bottom: 1rem;
+    background-color: antiquewhite;
+    color: green;
+    border-radius: 15%;
+}
+
+.navbutton:visited {
+    text-decoration: none;
+    padding: 2rem;
+    background-color: antiquewhite;
+    color: black;
+    border-radius: 15%;
+}
+
+.navbutton:hover {
+    background-color: lightcoral;
+    color: white;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    background-image: url(../assets/background-img.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+.column {
+    color: white;
+}
+
 @media screen and (min-width: 768px) {
-    main {
-        display: flex;
-        justify-content: center;
-    }
-    
-    .navbutton{
-        text-decoration: none;
-        padding: 2rem;
-        background-color: antiquewhite;
-        color: green;
-        border-radius: 15%;
-    }
-    
-    .navbutton:visited {
-        text-decoration: none;
-        padding: 2rem;
-        background-color: antiquewhite;
-        color: black;
-        border-radius: 15%;
-    }
-    
-    .navbutton:hover {
-        background-color: lightcoral;
-        color: white;
-    }
-    
-    body {
-        margin: 0;
-        padding: 0;
-    }
     
     nav {
         display: flex;
@@ -36,43 +53,27 @@
         align-items: center;
         background-color: silver;
         min-height: 8rem;
+        opacity: 0.9;
+    }
+
+    .content-box {
+        background-color: burlywood;
+        width: 1024px;
+        height: 100%;
+        margin: 4rem;
+        border-radius: 10px;
+        opacity: 0.9;
+    }
+
+    .content {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
     }
 }
 
 @media screen and (max-width: 768px) {
-    main {
-        display: flex;
-        justify-content: center;
-    }
-    
-    .navbutton{
-        text-decoration: none;
-        width: 6rem;
-        text-align: center;
-        padding: 2rem;
-        margin-bottom: 1rem;
-        background-color: antiquewhite;
-        color: green;
-        border-radius: 15%;
-    }
-    
-    .navbutton:visited {
-        text-decoration: none;
-        padding: 2rem;
-        background-color: antiquewhite;
-        color: black;
-        border-radius: 15%;
-    }
-    
-    .navbutton:hover {
-        background-color: lightcoral;
-        color: white;
-    }
-    
-    body {
-        margin: 0;
-        padding: 0;
-    }
     
     nav {
         display: flex;
@@ -83,5 +84,13 @@
         align-items: center;
         background-color: goldenrod;
         min-height: 8rem;
+    }
+
+    .content-box {
+        background-color: burlywood;
+        width: 512px;
+        height: 100%;
+        margin: 4rem;
+        border-radius: 10px;
     }
 }
