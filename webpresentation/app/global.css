@@ -27,15 +27,16 @@ main {
     color: white;
 }
 
-html, body {
-    margin: 0;
-    padding: 0;
+html {
+    max-height: inherit;
     background-image: url(../assets/background-img.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
+}
+
+body {
+    margin: 0;
+    padding: 0;
 }
 
 h1 {
@@ -45,6 +46,7 @@ h1 {
 
 .column {
     color: white;
+    padding: 2rem;
 }
 
 @media screen and (min-width: 768px) {
@@ -52,6 +54,7 @@ h1 {
     nav {
         display: flex;
         justify-content: space-around;
+        flex-direction: row;
         align-items: center;
         background-color: silver;
         min-height: 8rem;
@@ -61,7 +64,6 @@ h1 {
     .content-box {
         background-color: burlywood;
         width: 1024px;
-        height: 100%;
         margin: 4rem;
         border-radius: 10px;
         opacity: 0.9;
@@ -91,9 +93,9 @@ h1 {
     .content-box {
         background-color: burlywood;
         width: 512px;
-        height: 100%;
         margin: 4rem;
         border-radius: 10px;
+        opacity: 0.9;
     }
 
     .content {
