@@ -27,16 +27,16 @@ main {
     color: white;
 }
 
+* {
+    margin: 0;
+    padding: 0;
+}
+
 html {
-    max-height: inherit;
+    width: auto;
     background-image: url(../assets/background-img.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-}
-
-body {
-    margin: 0;
-    padding: 0;
 }
 
 h1 {
@@ -81,7 +81,6 @@ h1 {
     
     nav {
         display: flex;
-        flex-wrap: wrap;
         flex-direction: column;
         padding: 2rem;
         justify-content: space-around;
