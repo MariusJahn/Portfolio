@@ -20,15 +20,14 @@ main {
     justify-content: center;
 }
 
-.navbutton{
+.navbutton {
     text-decoration: none;
-    width: 6rem;
+    min-width: 6rem;
     text-align: center;
     padding: 2rem;
-    margin-bottom: 1rem;
     background-color: antiquewhite;
     color: green;
-    border-radius: 15%;
+    border-radius: 15px;
 }
 
 .navbutton:visited {
@@ -36,7 +35,7 @@ main {
     padding: 2rem;
     background-color: antiquewhite;
     color: black;
-    border-radius: 15%;
+    border-radius: 15px;
 }
 
 .navbutton:hover {
@@ -64,7 +63,7 @@ h1 {
         align-items: center;
         background-color: silver;
         min-height: 8rem;
-        opacity: 0.9;
+        opacity: 0.95;
     }
 
     .content-box {
@@ -72,7 +71,7 @@ h1 {
         width: 1024px;
         margin: 4rem;
         border-radius: 10px;
-        opacity: 0.9;
+        opacity: 0.95;
     }
 
     .content {
@@ -88,9 +87,8 @@ h1 {
     nav {
         display: flex;
         flex-direction: column;
+        gap: 2rem;
         padding: 2rem;
-        justify-content: space-around;
-        align-items: center;
         background-color: goldenrod;
         min-height: 8rem;
     }
