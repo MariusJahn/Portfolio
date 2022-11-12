@@ -1,38 +1,87 @@
-main {
-    display: flex;
-    justify-content: center;
+@media screen and (min-width: 768px) {
+    main {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .navbutton{
+        text-decoration: none;
+        padding: 2rem;
+        background-color: antiquewhite;
+        color: green;
+        border-radius: 15%;
+    }
+    
+    .navbutton:visited {
+        text-decoration: none;
+        padding: 2rem;
+        background-color: antiquewhite;
+        color: black;
+        border-radius: 15%;
+    }
+    
+    .navbutton:hover {
+        background-color: lightcoral;
+        color: white;
+    }
+    
+    body {
+        margin: 0;
+        padding: 0;
+    }
+    
+    nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-color: silver;
+        min-height: 8rem;
+    }
 }
 
-.navbutton{
-    text-decoration: none;
-    padding: 2rem;
-    background-color: antiquewhite;
-    color: green;
-    border-radius: 15%;
-}
-
-.navbutton:visited {
-    text-decoration: none;
-    padding: 2rem;
-    background-color: antiquewhite;
-    color: black;
-    border-radius: 15%;
-}
-
-.navbutton:hover {
-    background-color: lightcoral;
-    color: white;
-}
-
-body {
-    margin: 0;
-    padding: 0;
-}
-
-nav {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    background-color: silver;
-    min-height: 8rem;
+@media screen and (max-width: 768px) {
+    main {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .navbutton{
+        text-decoration: none;
+        width: 6rem;
+        text-align: center;
+        padding: 2rem;
+        margin-bottom: 1rem;
+        background-color: antiquewhite;
+        color: green;
+        border-radius: 15%;
+    }
+    
+    .navbutton:visited {
+        text-decoration: none;
+        padding: 2rem;
+        background-color: antiquewhite;
+        color: black;
+        border-radius: 15%;
+    }
+    
+    .navbutton:hover {
+        background-color: lightcoral;
+        color: white;
+    }
+    
+    body {
+        margin: 0;
+        padding: 0;
+    }
+    
+    nav {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        padding: 2rem;
+        justify-content: space-around;
+        align-items: center;
+        background-color: goldenrod;
+        min-height: 8rem;
+    }
 }
