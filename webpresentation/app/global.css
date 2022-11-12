@@ -1,3 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    min-height: 100%;
+    width: auto;
+    background-image: url(../assets/background-img.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+body {
+    min-height: 100%;
+}
+
 main {
     display: flex;
     justify-content: center;
@@ -25,18 +42,6 @@ main {
 .navbutton:hover {
     background-color: lightcoral;
     color: white;
-}
-
-* {
-    margin: 0;
-    padding: 0;
-}
-
-html {
-    width: auto;
-    background-image: url(../assets/background-img.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
 }
 
 h1 {
