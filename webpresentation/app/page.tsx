@@ -14,18 +14,8 @@ export default function Home() {
             </div>
             <div className="content">
             <div className="column">
-                <ul>
-                    <li>2017 - now</li>
-                    <li>2013 - 2017</li>
-                    <li>2013 - 2016</li>
-                </ul>
             </div>
             <div className="column">
-            <ul>
-                    <li>Bachelor of Science Media Informatics</li>
-                    <li>Computer Science Expert - Subject Area: System Integration</li>
-                    <li>information technology assistant</li>
-                </ul>
             </div>
             </div>
         </div>

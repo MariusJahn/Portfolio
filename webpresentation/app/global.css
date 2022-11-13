@@ -6,7 +6,7 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: monospace, Helvetica, sans-serif
+    font-family: monospace, Helvetica, sans-serif;
 
 }
 
@@ -20,6 +20,7 @@ html {
 
 body {
     min-height: 100%;
+    min-width: 800px;
 }
 
 main {
@@ -32,6 +33,12 @@ main {
     color: white;
     font-size: 2rem !important;
     padding: 1rem;
+}
+
+.degrees {
+    margin-left: auto;
+    margin-right: auto;
+    
 }
 
 .fa-github {
@@ -85,6 +92,7 @@ h1 {
 .column {
     color: white;
     padding: 2rem;
+    flex: 1;
 }
 
 .profile-picture {
@@ -95,6 +103,18 @@ h1 {
     display: block;
     border-radius: 50%;
     outline: black 2px solid;
+}
+
+.intranet-image {
+    min-width: 685px;
+    min-height: 400px;
+    max-width: 300px;
+    max-height: 250px;
+}
+
+.zecheImage {
+    max-width: 250px;
+    max-height: 400px;
 }
 
 @media screen and (min-width: 1024px) {
@@ -110,21 +130,11 @@ h1 {
 
     .content-box {
         background-color: burlywood;
-        width: 1024px;
+        width: 1440px;
         margin: 4rem;
         border-radius: 10px;
         font-size: 1rem;
         background: linear-gradient(var(--main-box-color), var(--main-box-color));
-    }
-
-    .content-box::after {
-        background-color: burlywood;
-        width: 1024px;
-        margin: 4rem;
-        border-radius: 10px;
-        font-size: 1rem;
-        opacity: 0.95;
-        z-index: 1;
     }
 
     .content {
@@ -132,6 +142,7 @@ h1 {
         flex-direction: row;
         align-items: center;
         justify-content: space-around;
+        flex-wrap: wrap;
     }
 }
 
@@ -144,11 +155,11 @@ h1 {
         padding: 2rem;
         background: linear-gradient(var(--main-box-color), var(--main-box-color));
         min-height: 8rem;
+        min-width: 800px;
     }
 
     .content-box {
         background-color: burlywood;
-        width: 512px;
         margin: 4rem;
         border-radius: 10px;
         background: linear-gradient(var(--main-box-color), var(--main-box-color));
