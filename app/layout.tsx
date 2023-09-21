@@ -2,7 +2,8 @@ import "./globals.css";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import { Providers } from "./providers";
-import Navigation from "./navigation";
+import Navigation from "./layout/navigation";
+import Footer from "./layout/footer";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -17,11 +18,16 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html id="app" lang="en" className="h-full bg-black">
-      <body className="h-full flex flex-col">
+    <html
+      id="app"
+      lang="en"
+      className="h-screen flex justify-center items-center dark"
+    >
+      <body className="h-screen flex flex-col w-3/4">
         <Providers>
           <Navigation />
           {children}
+          <Footer />
         </Providers>
       </body>
     </html>
