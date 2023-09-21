@@ -4,7 +4,7 @@ import GalleryDirectory from "../components/galleryDirectory";
 
 const Gallery = () => {
   return (
-    <div className="flex flex-row flex-wrap gap-4 h-screen">
+    <div className="flex flex-row flex-wrap gap-4 h-full min-h-screen px-6">
       <GalleryDirectory title="2020" path="/gallery/2020" />
       <GalleryDirectory title="2021" path="/gallery/2021" />
       <GalleryDirectory title="2022" path="/gallery/2022" />

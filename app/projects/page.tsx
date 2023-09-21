@@ -4,7 +4,7 @@ import React from "react";
 
 const Projects = () => {
   return (
-    <div className="flex flex-col items-center h-full pt-16">
+    <div className="flex flex-col items-center h-full pt-16 px-6">
       <div className="pb-4">
         <Avatar className="w-40 h-40" src="/images/me.jpg">
           TODAY

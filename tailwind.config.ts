@@ -29,11 +29,41 @@ const config: Config = {
       themes: {
         light: {
           layout: {}, // light theme layout tokens
-          colors: {}, // light theme colors
+          colors: {
+            primary: {
+              "50": "#ecfdf5",
+              "100": "#d2f9e5",
+              "200": "#a9f1d0",
+              "300": "#71e4b6",
+              "400": "#38cf98",
+              "500": "#14b37e",
+              "600": "#099268",
+              "700": "#077556",
+              "800": "#085d45",
+              "900": "#084c3a",
+              "950": "#032b21",
+              DEFAULT: "#14b37e",
+            },
+          }, // light theme colors
         },
         dark: {
           layout: {}, // dark theme layout tokens
-          colors: {}, // dark theme colors
+          colors: {
+            primary: {
+              "50": "#ecfdf5",
+              "100": "#d2f9e5",
+              "200": "#a9f1d0",
+              "300": "#71e4b6",
+              "400": "#38cf98",
+              "500": "#14b37e",
+              "600": "#099268",
+              "700": "#077556",
+              "800": "#085d45",
+              "900": "#084c3a",
+              "950": "#032b21",
+              DEFAULT: "#14b37e",
+            },
+          }, // dark theme colors
         },
         // ... custom themes
       },

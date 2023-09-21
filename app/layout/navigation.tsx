@@ -18,33 +18,14 @@ const Navigation = () => {
     document.getElementById("app")?.classList.toggle("dark");
   };
 
-  const [isMenuOpen, setIsMenuOpen] = React.useState(false);
-
-  const menuItems = [
-    "Profile",
-    "Dashboard",
-    "Activity",
-    "Analytics",
-    "System",
-    "Deployments",
-    "My Settings",
-    "Team Settings",
-    "Help & Feedback",
-    "Log Out",
-  ];
-
   return (
-    <Navbar shouldHideOnScroll onMenuOpenChange={setIsMenuOpen}>
+    <Navbar shouldHideOnScroll maxWidth="full">
       <NavbarBrand>
         <Link color="primary" href="/">
           <p className="font-bold text-inherit">Marius Jahn</p>
         </Link>
       </NavbarBrand>
       <NavbarContent className="hidden sm:flex gap-4" justify="center">
-        <NavbarMenuToggle
-          aria-label={isMenuOpen ? "Close menu" : "Open menu"}
-          className="sm:hidden"
-        />
         <NavbarItem>
           <Link color="foreground" href="#">
             CV
@@ -70,6 +51,7 @@ const Navigation = () => {
             onClick={toggleDarkmode}
             defaultSelected
             color="primary"
+            className="text-black"
             size="lg"
             thumbIcon={({ isSelected }) =>
               isSelected ? <BsFillSunFill /> : <BsFillMoonStarsFill />
