@@ -54,7 +54,6 @@ const Navigation = () => {
           <Switch
             onClick={toggleDarkmode}
             defaultSelected
-            color="primary"
             className="text-black"
             size="lg"
             thumbIcon={({ isSelected }) =>
