@@ -10,8 +10,8 @@ export default function App() {
   return (
     <main className="h-full min-h-screen flex flex-col items-center">
       <div className="flex flex-col w-full">
-        <div className="flex flex-row h-[30rem] items-center justify-center px-6">
-          <header className=" flex flex-col items-start justify-start">
+        <div className="flex flex-row h-[30rem] items-center justify-center">
+          <header className=" flex flex-col gap-1 items-start justify-start">
             <h1 className="font-bold text-4xl">Hey! Im Marius :)</h1>
             <h2 className="text-primary-500">Im a Software Developer</h2>
           </header>
