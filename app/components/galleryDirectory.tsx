@@ -15,7 +15,7 @@ const GalleryDirectory = (props: GalleryDirectoryProps) => {
         <Card
           isFooterBlurred
           radius="lg"
-          className="border-none w-[200px] h-[300px]"
+          className="border-none w-[200px] h-[200px]"
         >
           <Image
             alt="Woman listing to music"

@@ -14,8 +14,11 @@ export default function App() {
         <div className="">
           <div className="flex flex-row h-[30rem] items-center justify-center z-10">
             <header className=" flex flex-col gap-1 items-start justify-start">
-              <h1 className="font-bold text-4xl">Hey! Im Marius :)</h1>
-              <h2 className="text-primary-500">Im a Software Developer</h2>
+              <h1 className="font-bold text-4xl">Hey! {`I'm Marius :)`}</h1>
+              <h2 className="text-primary-500">
+                Im a Software Developer
+                <span className="animate-pulse">|</span>
+              </h2>
             </header>
 
             <motion.div
