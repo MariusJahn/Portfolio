@@ -28,7 +28,7 @@ export default function RootLayout({
         <div className="w-3/4 h-full min-h-screen flex flex-col">
           <Providers>
             <Navigation />
-            {children}
+            <div className="px-6">{children}</div>
             <Footer />
           </Providers>
         </div>
