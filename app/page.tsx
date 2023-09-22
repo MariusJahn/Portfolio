@@ -17,18 +17,7 @@ export default function App() {
               <h1 className="font-bold text-4xl">Hey! Im Marius :)</h1>
               <h2 className="text-primary-500">Im a Software Developer</h2>
             </header>
-            <motion.div
-              className="z-20"
-              initial={{ rotate: 0, scale: 0, translateX: 50, translateY: -20 }}
-              animate={{ rotate: 0, scale: 3 }}
-              transition={{
-                type: "spring",
-                stiffness: 260,
-                damping: 10,
-              }}
-            >
-              👋
-            </motion.div>
+
             <motion.div
               className="z-10"
               initial={{ rotate: 0, scale: 0 }}
@@ -38,8 +27,28 @@ export default function App() {
                 stiffness: 260,
                 damping: 10,
               }}
+              whileHover={{ scale: 1.2, rotate: 5 }}
             >
-              <Avatar className="ml-8 w-40 h-40" src="/images/me.jpg" />
+              <motion.div
+                className="z-20 w-10 h-10"
+                initial={{
+                  rotate: 0,
+                  scale: 0,
+                  translateX: 40,
+                  translateY: 40,
+                }}
+                exit={{ rotate: 10, scale: 0 }}
+                animate={{ rotate: -10, scale: 3 }}
+                transition={{
+                  type: "spring",
+                  stiffness: 260,
+                  damping: 10,
+                }}
+                whileHover={{ rotate: 10 }}
+              >
+                👋
+              </motion.div>
+              <Avatar className="ml-8 w-40 h-40 z-10" src="/images/me.jpg" />
             </motion.div>
             <Skillbox />
           </div>
