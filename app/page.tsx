@@ -2,10 +2,10 @@
 
 import { useEffect, useState } from "react";
 import PersonalityCard from "./components/personalityCard";
-import Skillbox from "./skillbox";
 import { Avatar } from "@nextui-org/react";
 import SocialsContainer from "./components/socialsContainer";
 import { motion } from "framer-motion";
+import Skillbox from "./components/skillbox";
 
 export default function App() {
   return (
@@ -41,171 +41,7 @@ export default function App() {
             >
               <Avatar className="ml-8 w-40 h-40" src="/images/me.jpg" />
             </motion.div>
-
-            <div className="z-0 absolute w-3/4 h-[30rem] px-6 ">
-              <div className="flex flex-row h-[15rem] w-full">
-                <div className="flex-1 flex flex-col justify-around gap-4 blur-md hover:blur-none transition-all">
-                  <div className="flex flex-row justify-between">
-                    <h2>React</h2>
-                    <h2>React</h2>
-                  </div>
-                  <div className="flex flex-row justify-center">
-                    <h2>Tailwind CSS</h2>
-                  </div>
-                  <div className="flex flex-row justify-between">
-                    <h2>React</h2>
-                    <h2>React</h2>
-                  </div>
-                  <div className="flex flex-row justify-center">
-                    <h2>Tailwind CSS</h2>
-                  </div>
-                  <div className="flex flex-row justify-between">
-                    <h2>React</h2>
-                    <h2>React</h2>
-                  </div>
-                </div>
-                <div className="flex-1 flex flex-col justify-around gap-4 blur-md hover:blur-none transition-all">
-                  <div className="flex flex-row justify-center">
-                    <h2>Tailwind CSS</h2>
-                  </div>
-                  <div className="flex flex-row justify-between">
-                    <h2>React</h2>
-                    <h2>React</h2>
-                  </div>
-                  <div className="flex flex-row justify-center">
-                    <h2>Tailwind CSS</h2>
-                  </div>
-                  <div className="flex flex-row justify-between">
-                    <h2>React</h2>
-                    <h2>React</h2>
-                  </div>
-                  <div className="flex flex-row justify-center">
-                    <h2>Tailwind CSS</h2>
-                  </div>
-                </div>
-                <div className="flex-1 flex flex-col justify-around gap-4 blur-md hover:blur-none transition-all">
-                  <div className="flex flex-row justify-between">
-                    <h2>React</h2>
-                    <h2>React</h2>
-                  </div>
-                  <div className="flex flex-row justify-center">
-                    <h2>Tailwind CSS</h2>
-                  </div>
-                  <div className="flex flex-row justify-between">
-                    <h2>React</h2>
-                    <h2>React</h2>
-                  </div>
-                  <div className="flex flex-row justify-center">
-                    <h2>Tailwind CSS</h2>
-                  </div>
-                  <div className="flex flex-row justify-between">
-                    <h2>React</h2>
-                    <h2>React</h2>
-                  </div>
-                </div>
-                <div className="flex-1 flex flex-col justify-around gap-4 blur-md hover:blur-none transition-all">
-                  <div className="flex flex-row justify-center">
-                    <h2>Tailwind CSS</h2>
-                  </div>
-                  <div className="flex flex-row justify-between">
-                    <h2>React</h2>
-                    <h2>React</h2>
-                  </div>
-                  <div className="flex flex-row justify-center">
-                    <h2>Tailwind CSS</h2>
-                  </div>
-                  <div className="flex flex-row justify-between">
-                    <h2 className=" hover:animate-none animate-spin transition-all">
-                      React
-                    </h2>
-                    <h2>React</h2>
-                  </div>
-                  <div className="flex flex-row justify-center">
-                    <h2>Tailwind CSS</h2>
-                  </div>
-                </div>
-              </div>
-              <div className="flex flex-row h-[15rem] w-full">
-                <div className="flex-1 flex flex-col justify-around gap-4 blur-md hover:blur-none transition-all">
-                  <div className="flex flex-row justify-center">
-                    <h2>Tailwind CSS</h2>
-                  </div>
-                  <div className="flex flex-row justify-between">
-                    <h2>React</h2>
-                    <h2 className="">React</h2>
-                  </div>
-                  <div className="flex flex-row justify-center">
-                    <h2>Tailwind CSS</h2>
-                  </div>
-                  <div className="flex flex-row justify-between">
-                    <h2>React</h2>
-                    <h2>React</h2>
-                  </div>
-                  <div className="flex flex-row justify-center">
-                    <h2>Tailwind CSS</h2>
-                  </div>
-                </div>
-                <div className="flex-1 flex flex-col justify-around gap-4 blur-md hover:blur-none transition-all">
-                  <div className="flex flex-row justify-between">
-                    <h2 className="animate-bounce hover:animate-none">React</h2>
-                    <h2>React</h2>
-                  </div>
-                  <div className="flex flex-row justify-center">
-                    <h2>Tailwind CSS</h2>
-                  </div>
-                  <div className="flex flex-row justify-between">
-                    <h2>React</h2>
-                    <h2>React</h2>
-                  </div>
-                  <div className="flex flex-row justify-center">
-                    <h2>Tailwind CSS</h2>
-                  </div>
-                  <div className="flex flex-row justify-between">
-                    <h2>React</h2>
-                    <h2>React</h2>
-                  </div>
-                </div>
-                <div className="flex-1 flex flex-col justify-around gap-4 blur-md hover:blur-none transition-all">
-                  <div className="flex flex-row justify-center">
-                    <h2>Tailwind CSS</h2>
-                  </div>
-                  <div className="flex flex-row justify-between">
-                    <h2>React</h2>
-                    <h2>React</h2>
-                  </div>
-                  <div className="flex flex-row justify-center">
-                    <h2>Tailwind CSS</h2>
-                  </div>
-                  <div className="flex flex-row justify-between">
-                    <h2>React</h2>
-                    <h2>React</h2>
-                  </div>
-                  <div className="flex flex-row justify-center">
-                    <h2>Tailwind CSS</h2>
-                  </div>
-                </div>
-                <div className="flex-1 flex flex-col justify-around gap-4 blur-md hover:blur-none transition-all">
-                  <div className="flex flex-row justify-between">
-                    <h2>React</h2>
-                    <h2>React</h2>
-                  </div>
-                  <div className="flex flex-row justify-center">
-                    <h2>Tailwind CSS</h2>
-                  </div>
-                  <div className="flex flex-row justify-between">
-                    <h2>React</h2>
-                    <h2>React</h2>
-                  </div>
-                  <div className="flex flex-row justify-center">
-                    <h2>Tailwind CSS</h2>
-                  </div>
-                  <div className="flex flex-row justify-between">
-                    <h2>React</h2>
-                    <h2>React</h2>
-                  </div>
-                </div>
-              </div>
-            </div>
+            <Skillbox />
           </div>
         </div>
         <div className="flex flex-row items-center justify-center"></div>
