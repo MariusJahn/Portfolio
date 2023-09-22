@@ -9,9 +9,9 @@ const Footer = () => {
 
       <div className="flex flex-col gap-2 pb-4">
         <h3 className="font-bold pb-4">Legal</h3>
-        <Link href={"#"}>Privacy Policy</Link>
-        <Link href={"#"}>Cookie Preferences</Link>
-        <Link href={"#"}>Imprint</Link>
+        <Link href={"/legal/privacypolicy"}>Privacy Policy</Link>
+        <Link href={"/legal/cookiepreferences"}>Cookie Preferences</Link>
+        <Link href={"/legal/imprint"}>Imprint</Link>
       </div>
     </footer>
   );
