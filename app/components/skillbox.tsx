@@ -4,7 +4,7 @@ const Skillbox = () => {
   return (
     <div className="z-0 absolute w-3/4 h-[30rem] px-6 ">
       <div className="flex flex-row h-[15rem] w-full">
-        <div className="flex-1 flex flex-col justify-around gap-4 dark:hover:bg-slate-900 hover:bg-slate-200 rounded-md transition-colors">
+        <div className="flex-1 flex flex-col justify-around gap-4 dark:hover:bg-slate-900 hover:bg-slate-200 rounded-md transition-colors p-4">
           <div className="flex flex-row justify-between">
             <h2 className="blur-sm hover:blur-none transition-all animate-pulse">
               React
@@ -27,18 +27,33 @@ const Skillbox = () => {
             </h2>
           </div>
         </div>
-        <div className="flex-1 flex flex-col justify-around gap-4 dark:hover:bg-slate-900 hover:bg-slate-200 rounded-md transition-colors">
+        <div className="flex-1 flex flex-col justify-around gap-4 dark:hover:bg-slate-900 hover:bg-slate-200 rounded-md transition-colors p-4">
           <div className="flex flex-row justify-center">
             <h2 className="blur-sm hover:blur-none transition-all animate-pulse">
-              Tailwind CSS
+              Java EE 8
             </h2>
           </div>
           <div className="flex flex-row justify-around">
             <h2 className="blur-sm hover:blur-none transition-all animate-pulse">
-              React
+              JPA
             </h2>
             <h2 className="blur-sm hover:blur-none transition-all animate-pulse">
-              React
+              Hibernate
+            </h2>
+          </div>
+          <div className="flex flex-row justify-center">
+            <h2 className="blur-sm hover:blur-none transition-all animate-pulse">
+              Spring Boot
+            </h2>
+          </div>
+        </div>
+        <div className="flex-1 flex flex-col justify-around gap-4 dark:hover:bg-slate-900 hover:bg-slate-200 rounded-md transition-colors p-4">
+          <div className="flex flex-row justify-between">
+            <h2 className="blur-sm hover:blur-none transition-all animate-pulse">
+              JSF
+            </h2>
+            <h2 className="blur-sm hover:blur-none transition-all animate-pulse">
+              Wildfly / Jboss
             </h2>
           </div>
           <div className="flex flex-row justify-center">
@@ -46,8 +61,6 @@ const Skillbox = () => {
               Tailwind CSS
             </h2>
           </div>
-        </div>
-        <div className="flex-1 flex flex-col justify-around gap-4 dark:hover:bg-slate-900 hover:bg-slate-200 rounded-md transition-colors">
           <div className="flex flex-row justify-between">
             <h2 className="blur-sm hover:blur-none transition-all animate-pulse">
               React
@@ -56,21 +69,8 @@ const Skillbox = () => {
               React
             </h2>
           </div>
-          <div className="flex flex-row justify-center">
-            <h2 className="blur-sm hover:blur-none transition-all animate-pulse">
-              Tailwind CSS
-            </h2>
-          </div>
-          <div className="flex flex-row justify-between">
-            <h2 className="blur-sm hover:blur-none transition-all animate-pulse">
-              React
-            </h2>
-            <h2 className="blur-sm hover:blur-none transition-all animate-pulse">
-              React
-            </h2>
-          </div>
         </div>
-        <div className="flex-1 flex flex-col justify-around gap-4 dark:hover:bg-slate-900 hover:bg-slate-200 rounded-md transition-colors">
+        <div className="flex-1 flex flex-col justify-around gap-4 dark:hover:bg-slate-900 hover:bg-slate-200 rounded-md transition-colors p-4">
           <div className="flex flex-row justify-center">
             <h2 className="blur-sm hover:blur-none transition-all animate-pulse">
               Tailwind CSS
@@ -92,7 +92,7 @@ const Skillbox = () => {
         </div>
       </div>
       <div className="flex flex-row h-[15rem] w-full">
-        <div className="flex-1 flex flex-col justify-around gap-4 dark:hover:bg-slate-900 hover:bg-slate-200 rounded-md transition-colors">
+        <div className="flex-1 flex flex-col justify-around gap-4 dark:hover:bg-slate-900 hover:bg-slate-200 rounded-md transition-colors p-4">
           <div className="flex flex-row justify-center">
             <h2 className="blur-sm hover:blur-none transition-all animate-pulse">
               Tailwind CSS
@@ -112,7 +112,7 @@ const Skillbox = () => {
             </h2>
           </div>
         </div>
-        <div className="flex-1 flex flex-col justify-around gap-4 dark:hover:bg-slate-900 hover:bg-slate-200 rounded-md transition-colors">
+        <div className="flex-1 flex flex-col justify-around gap-4 dark:hover:bg-slate-900 hover:bg-slate-200 rounded-md transition-colors p-4">
           <div className="flex flex-row justify-between">
             <h2 className="blur-sm hover:blur-none transition-all animate-pulse">
               React
@@ -135,7 +135,7 @@ const Skillbox = () => {
             </h2>
           </div>
         </div>
-        <div className="flex-1 flex flex-col justify-around gap-4 dark:hover:bg-slate-900 hover:bg-slate-200 rounded-md transition-colors">
+        <div className="flex-1 flex flex-col justify-around gap-4 dark:hover:bg-slate-900 hover:bg-slate-200 rounded-md transition-colors p-4">
           <div className="flex flex-row justify-center">
             <h2 className="blur-sm hover:blur-none transition-all animate-pulse">
               Tailwind CSS
@@ -155,7 +155,7 @@ const Skillbox = () => {
             </h2>
           </div>
         </div>
-        <div className="flex-1 flex flex-col justify-around gap-4 dark:hover:bg-slate-900 hover:bg-slate-200 rounded-md transition-colors">
+        <div className="flex-1 flex flex-col justify-around gap-4 dark:hover:bg-slate-900 hover:bg-slate-200 rounded-md transition-colors p-4">
           <div className="flex flex-row justify-between">
             <h2 className="blur-sm hover:blur-none transition-all animate-pulse">
               React
