@@ -2,9 +2,9 @@ import React from "react";
 
 const Skillbox = () => {
   return (
-    <div className="z-0 absolute w-3/4 h-[30rem] px-6 ">
-      <div className="flex flex-row h-[15rem] w-full">
-        <div className="flex-1 flex flex-col justify-around gap-4 rounded-md transition-colors p-4">
+    <div className="z-0 absolute w-3/4 h-[30rem] px-6 overflow-hidden">
+      <div className="flex flex-row h-[15rem] w-full flex-wrap">
+        <div className="flex-1 flex flex-col justify-around gap-4 rounded-md transition-colors p-4 flex-wrap">
           <div className="flex flex-row justify-between">
             <h2 className="blur-sm hover:blur-none transition-all animate-pulse hover:animate-none">
               React
@@ -27,7 +27,7 @@ const Skillbox = () => {
             </h2>
           </div>
         </div>
-        <div className="flex-1 flex flex-col justify-around gap-4 rounded-md transition-colors p-4">
+        <div className="flex-1 flex flex-col justify-around gap-4 rounded-md transition-colors p-4 flex-wrap  ">
           <div className="flex flex-row justify-center">
             <h2 className="blur-sm hover:blur-none transition-all animate-pulse hover:animate-none :hover:animate-none ">
               Java EE
@@ -47,7 +47,7 @@ const Skillbox = () => {
             </h2>
           </div>
         </div>
-        <div className="flex-1 flex flex-col justify-around gap-4 rounded-md transition-colors p-4">
+        <div className="flex-1 flex flex-col justify-around gap-4 rounded-md transition-colors p-4 flex-wrap">
           <div className="flex flex-row justify-between">
             <h2 className="blur-sm hover:blur-none transition-all animate-pulse hover:animate-none">
               JSF
@@ -58,19 +58,19 @@ const Skillbox = () => {
           </div>
           <div className="flex flex-row justify-center">
             <h2 className="blur-sm hover:blur-none transition-all animate-pulse hover:animate-none">
-              Tailwind CSS
+              Express.js
             </h2>
           </div>
           <div className="flex flex-row justify-between">
             <h2 className="blur-sm hover:blur-none transition-all animate-pulse hover:animate-none">
-              React
+              UML
             </h2>
             <h2 className="blur-sm hover:blur-none transition-all animate-pulse hover:animate-none">
-              React
+              Symfony
             </h2>
           </div>
         </div>
-        <div className="flex-1 flex flex-col justify-around gap-4 rounded-md transition-colors p-4">
+        <div className="flex-1 flex flex-col justify-around gap-4 rounded-md transition-colors p-4 flex-wrap">
           <div className="flex flex-row justify-center">
             <h2 className="blur-sm hover:blur-none transition-all animate-pulse hover:animate-none">
               Angular
@@ -86,13 +86,13 @@ const Skillbox = () => {
           </div>
           <div className="flex flex-row justify-center">
             <h2 className="blur-sm hover:blur-none transition-all animate-pulse hover:animate-none">
-              Symfony
+              FastAPI
             </h2>
           </div>
         </div>
       </div>
-      <div className="flex flex-row h-[15rem] w-full">
-        <div className="flex-1 flex flex-col justify-around gap-4 rounded-md transition-colors p-4">
+      <div className="flex flex-row h-[15rem] w-full flex-wrap">
+        <div className="flex-1 flex flex-col justify-around gap-4 rounded-md transition-colors p-4 flex-wrap">
           <div className="flex flex-row justify-center">
             <h2 className="blur-sm hover:blur-none transition-all animate-pulse hover:animate-none">
               BPMN 2.0
@@ -112,7 +112,7 @@ const Skillbox = () => {
             </h2>
           </div>
         </div>
-        <div className="flex-1 flex flex-col justify-around gap-4 rounded-md transition-colors p-4">
+        <div className="flex-1 flex flex-col justify-around gap-4 rounded-md transition-colors p-4 flex-wrap">
           <div className="flex flex-row justify-between">
             <h2 className="blur-sm hover:blur-none transition-all animate-pulse hover:animate-none">
               MySQL
@@ -135,46 +135,46 @@ const Skillbox = () => {
             </h2>
           </div>
         </div>
-        <div className="flex-1 flex flex-col justify-around gap-4 rounded-md transition-colors p-4">
+        <div className="flex-1 flex flex-col justify-around gap-4 rounded-md transition-colors p-4 flex-wrap">
           <div className="flex flex-row justify-center">
             <h2 className="blur-sm hover:blur-none transition-all animate-pulse hover:animate-none">
-              Github
+              Git
             </h2>
           </div>
           <div className="flex flex-row justify-around">
             <h2 className="blur-sm hover:blur-none transition-all animate-pulse hover:animate-none">
-              Jira
+              Prisma
             </h2>
             <h2 className="blur-sm hover:blur-none transition-all animate-pulse hover:animate-none">
-              Factro
+              Jasmine
             </h2>
           </div>
           <div className="flex flex-row justify-center">
             <h2 className="blur-sm hover:blur-none transition-all animate-pulse hover:animate-none">
-              test
+              XUnit
             </h2>
           </div>
         </div>
-        <div className="flex-1 flex flex-col justify-around gap-4 rounded-md transition-colors p-4">
+        <div className="flex-1 flex flex-col justify-around gap-4 rounded-md transition-colors p-4 flex-wrap">
           <div className="flex flex-row justify-between">
             <h2 className="blur-sm hover:blur-none transition-all animate-pulse hover:animate-none">
-              ss
+              JUnit
             </h2>
             <h2 className="blur-sm hover:blur-none transition-all animate-pulse hover:animate-none">
-              React
+              Administration
             </h2>
           </div>
           <div className="flex flex-row justify-center">
             <h2 className="blur-sm hover:blur-none transition-all animate-pulse hover:animate-none">
-              Tailwind CSS
+              Infrastructure
             </h2>
           </div>
           <div className="flex flex-row justify-between">
             <h2 className="blur-sm hover:blur-none transition-all animate-pulse hover:animate-none">
-              React
+              Troubleshooting
             </h2>
             <h2 className="blur-sm hover:blur-none transition-all animate-pulse hover:animate-none">
-              React
+              Network
             </h2>
           </div>
         </div>
