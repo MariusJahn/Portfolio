@@ -90,22 +90,11 @@ export default function App() {
           </motion.div>
           <Skillbox />
         </div>
-        <div
-          className="flex flex-row items-center justify-between h-60 w-full bg-cover bg-center bg-no-repeat"
-          style={{ backgroundImage: "url('/images/webb.jpg')" }}
-        >
-          <div className="flex-1 h-full border-r-[2rem] hover:-translate-y-2 border-black">
-            1
-          </div>
-          <div className="flex-1 h-full border-r-[2rem] border-black">2</div>
-          <div className="flex-1 h-full border-r-[2rem] border-black">3</div>
-          <div className="flex-1 h-full border-r-[2rem] border-black">4</div>
-          <div className="flex-1 h-full border-r-[2rem] border-black">5</div>
-          <div className="flex-1 h-full border-r-[2rem] border-black">4</div>
-          <div className="flex-1 h-full border-r-[2rem] border-black">5</div>
-          <div className="flex-1 h-full border-r-[2rem] border-black">4</div>
-          <div className="flex-1 h-full border-r-[2rem] border-black">5</div>
-          <div className="w-40 h-full ">5</div>
+        <div>
+          <div
+            className="flex flex-row items-center gap-12 justify-around h-60 w-full bg-cover bg-center bg-no-repeat "
+            style={{ backgroundImage: "url('/images/webb.jpg')" }}
+          ></div>
         </div>
         <MySetup />
       </div>
