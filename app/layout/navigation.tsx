@@ -57,7 +57,13 @@ const Navigation = () => {
             className="text-black"
             size="lg"
             thumbIcon={({ isSelected }) =>
-              isSelected ? <BsFillSunFill /> : <BsFillMoonStarsFill />
+              isSelected ? (
+                <div className="text-black">
+                  <BsFillSunFill />
+                </div>
+              ) : (
+                <BsFillMoonStarsFill />
+              )
             }
           />
         </NavbarItem>
