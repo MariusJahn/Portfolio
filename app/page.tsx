@@ -8,6 +8,7 @@ import { motion } from "framer-motion";
 import Skillbox from "./components/skillbox";
 import { url } from "inspector";
 import MySetup from "./components/mysetup";
+import Facts from "./components/facts";
 
 export default function App() {
   let [cursor, setCursor] = useState<string>("|");
@@ -90,12 +91,7 @@ export default function App() {
           </motion.div>
           <Skillbox />
         </div>
-        <div>
-          <div
-            className="flex flex-row items-center gap-12 justify-around h-60 w-full bg-cover bg-center bg-no-repeat "
-            style={{ backgroundImage: "url('/images/webb.jpg')" }}
-          ></div>
-        </div>
+        <Facts />
         <MySetup />
       </div>
     </main>

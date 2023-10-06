@@ -25,7 +25,7 @@ export default function RootLayout({
       className="h-full min-h-screen flex justify-center items-center dark"
     >
       <body className="h-full min-h-screen w-full flex items-center justify-center">
-        <div className="w-3/4 h-full min-h-screen flex flex-col">
+        <div className="sm:w-3/4 h-full min-h-screen flex flex-col">
           <Providers>
             <Navigation />
             <div className="px-6">{children}</div>
